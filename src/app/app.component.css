@@ -1,0 +1,9 @@
+img{
+  margin: 14px;
+  width: auto;
+  height: 50px;
+}
+
+mat-toolbar{
+  z-index: 2;
+}

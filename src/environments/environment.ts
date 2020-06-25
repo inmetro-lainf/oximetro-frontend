@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  server_url: 'http://0.0.0.0:8080/',
+  update_interval: 5 // Tempo de atualização em minutos
 };
 
 /*
