@@ -1,6 +1,6 @@
 export const environment = {
   production: true,
-  server_url: 'http://0.0.0.0:8080/',
+  server_url: 'http://139.82.74.36/',
   update_interval: 5, // Tempo de atualização em minutos
 
   graph_options: {
