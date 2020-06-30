@@ -1,11 +1,13 @@
-<mat-toolbar >
+<div class="toolbar">
   <img src="../assets/oximetro_128x128.png" alt="Ícone de oxímetro">
-  <span>Sistema Oxímetro IoT</span>
-</mat-toolbar>
+  <span class="titulo">Sistema Oxímetro IoT</span>
+</div>
 
-<!--
-dados dispositivo
-card o2
-card heartrate
-graph
--->
+<div class="measurements-cards-grid">
+  <app-measurements-card
+    measurement="sp02">
+  </app-measurements-card>
+  <app-measurements-card
+    measurement="hearthate">
+  </app-measurements-card>
+</div>

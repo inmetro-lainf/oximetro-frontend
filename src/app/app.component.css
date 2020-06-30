@@ -4,6 +4,51 @@ img{
   height: 50px;
 }
 
-mat-toolbar{
+.toolbar{
   z-index: 2;
+}
+
+.titulo{
+  display: inline-block;
+  font-size: 1.6em;
+  margin-top: 32px;
+  vertical-align: top;
+}
+
+.measurements-cards-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 90vh;
+}
+
+app-measurements-card{
+  height: 100%;
+}
+
+@media (min-width: 600px) {
+  .measurements-cards-grid{
+    min-height: 200vh;
+  }
+}
+
+
+@media (min-width: 800px) {
+  img{
+    height: 70px;
+  }
+
+  .measurements-cards-grid{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 65vh;
+  }
+
+  .titulo{
+    font-size: 2.2em;
+  }
 }

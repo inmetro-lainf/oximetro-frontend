@@ -1,0 +1,19 @@
+<div class="card">
+  <div class="header">
+    <span class="header-image">
+      <img class="header-image" [src]="pathDaImagem" [alt]="descricao">
+    </span>
+    <span class="titulo">{{titulo}}</span>
+  </div>
+  <!-- Gráfico de série temporal das medições -->
+  <div class="content">
+    <google-chart
+      [type]="chartConfig.type"
+      [data]="chartConfig.data"
+      [columns]="chartConfig.columnNames"
+      [options]="chartConfig.options"
+      dynamicResize="true"
+      width="100%">
+    </google-chart>
+  </div>
+</div>

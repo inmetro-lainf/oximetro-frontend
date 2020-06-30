@@ -12,8 +12,8 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$oximetro-frontend-primary: mat-palette($mat-indigo);
-$oximetro-frontend-accent: mat-palette($mat-pink, A200, A100, A400);
+$oximetro-frontend-primary: mat-palette($mat-blue, 700, 500, 900);
+$oximetro-frontend-accent: mat-palette($mat-light-blue, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
 $oximetro-frontend-warn: mat-palette($mat-red);
@@ -25,4 +25,3 @@ $oximetro-frontend-theme: mat-light-theme($oximetro-frontend-primary, $oximetro-
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
 @include angular-material-theme($oximetro-frontend-theme);
-
